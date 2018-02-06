@@ -1,0 +1,28 @@
+{
+  "user": {
+    "userName": "Angela",
+    "deliveryAddress": "160 Morgan Street, Jersey City, NJ 07302",
+    "phoneNumber": "284-874-9754"
+  },
+  "restaurant": {
+    "name": "Elyse Restaurant",
+    "address": "151 S 2nd St, San Jose, CA 95113"
+  },
+  "foodItems": [
+    {
+      "foodName": "Power Bowl",
+      "ingredients": "Kale, Carrots, Brussels Sprouts, Local Egg",
+      "grains": "Super_Grains",
+      "price": 13.38,
+      "extras": "Beef Burger",
+      "quantity": 1,
+      "dietRestrictions": "Tomato Vin on Side"
+    },
+    {
+      "foodName": "Acai Berry",
+      "ingredients": "Acai, Blueberries, Banana, Almond milk, Chia, Lemon",
+      "price": 6.99,
+      "quantity": 2
+    }
+  ]
+}

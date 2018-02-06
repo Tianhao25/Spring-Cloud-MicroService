@@ -1,0 +1,18 @@
+{
+  "sender": {
+    "userName": "Angela",
+    "phoneNumber": "284-874-9754",
+    "creditCardNumber": "1234-0987-3456-8765",
+    "expirationDate": "09-18",
+    "securityCode": "483"
+  },
+  "recipient": {
+    "restaurantName": "Elyse Restaurant",
+    "restaurantAddress": "151 S 2nd St, San Jose, CA 95113"
+  },
+  "order": {
+    "orderId": "5a73c66715f6487e118aee31",
+    "orderTimestamp": 1517536870979
+  },
+  "totalAmount": 29.89
+}

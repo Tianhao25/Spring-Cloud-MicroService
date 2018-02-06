@@ -1,0 +1,5 @@
+# Hystrix default server port
+server:
+  port: 7979
+
+# check Hystrix Stream works : http://localhost:9001/hystrix.stream

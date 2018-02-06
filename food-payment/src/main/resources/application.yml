@@ -1,0 +1,16 @@
+server:
+  port: 9001
+
+# MQ for Cache & Async function
+# spring.cloud.stream.bindings.output [publisher] -> MQ name
+# Application name registered in Eureka : spring application name
+spring:
+  application:
+    name: food-payment
+  cloud:
+    stream:
+      bindings:
+        output: payments
+
+
+

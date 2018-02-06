@@ -1,0 +1,13 @@
+# Eureka Server port
+server:
+  port: 8761
+
+# Eureka will sync between all data center
+# coz we only have one single data center (my computer), limit sync waiting time = 0
+# coz eureka server must register at least one client when started
+eureka:
+  server:
+    wait-time-in-ms-when-sync-empty: 0
+  client:
+    register-with-eureka: false
+    fetch-registry: false

@@ -1,0 +1,48 @@
+{
+  "restaurants": [
+    {
+      "name": "BGood",
+      "address": "893 Copocica Leoson, CA 93827",
+      "menuItems": [
+        {
+          "category": "Kale & Grain Bowls",
+          "foodName": "Spicy Avocado & Lime",
+          "ingredients": "Kale, Sauteed Veggies, Avocado",
+          "grains": "Quinoa",
+          "price": 10.59
+        },
+        {
+          "category": "Salads",
+          "foodName": "Harvest Kale",
+          "ingredients": "Kale, Beets, manchego, sherry vinaigrette",
+          "price": 9.59
+        }
+      ]
+    },
+    {
+      "name": "Elyse Restaurant",
+      "address": "151 S 2nd St, San Jose, CA 95113",
+      "menuItems": [
+        {
+          "category": "Salads",
+          "foodName": "Shaved Brussels Sprouts",
+          "ingredients": "Baby Spinach, Green Lentils, Sunflower Seeds",
+          "price": 9.79
+        },
+        {
+          "category": "Kale & Grain Bowls",
+          "foodName": "Power Bowl",
+          "ingredients": "Kale, Carrots, Brussels Sprouts",
+          "grains": "Super_Grains",
+          "price": 10.59
+        },
+        {
+          "category": "Smoothies",
+          "foodName": "Acai Berry",
+          "ingredients": "Acai, Blueberries, Banana, Almond milk, Pineapple, Chia, Lemon",
+          "price": 6.99
+        }
+      ]
+    }
+  ]
+}
