@@ -9,6 +9,12 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @EnableDiscoveryClient  // microService Discovery for eureka client
 @EnableCircuitBreaker   // circuit breaker by Hystrix
 public class PaymentServiceApplication {
+    @Bean
+    @LoadBalanced
+    public RestTemplate getRestTemplate() {
+        return new RestTemplate();
+    }
+    
     public static void main(String[] args) {
         SpringApplication.run(PaymentServiceApplication.class);
     }
